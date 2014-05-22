@@ -1,0 +1,49 @@
+/*App CSS*/
+
+/*Fonts*/
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+/*Animations*/
+
+/*Styles*/
+
+html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+header{
+	text-align: center;
+}
+
+header span.title a{
+	text-decoration: none;
+	color: #95C9DA;
+}
+
+.game-container{
+	margin: 0 auto;
+	width: 420px;
+	height: 420px;
+	background-color: #A8DCEC;
+}
+
+.game-container .board {
+	margin: 0 auto;
+	background-color: #95C9DA;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	top: 10px;
+}
+
+.game-container .board .row,
+.game-container .board .cell{
+	width: 30px;
+	height: 30px;
+	background-color: grey;
+}

@@ -1,0 +1,2 @@
+// app.js
+'use strict';
